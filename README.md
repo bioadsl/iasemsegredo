@@ -7,14 +7,15 @@ Página de vendas profissional do ebook **"IA SEM SEGREDO"**, um guia prático q
 ## 🔥 Funcionalidades
 - Página 100% responsiva
 - Layout moderno, rápido e otimizado
-- Deploy fácil no Netlify, Vercel ou GitHub Pages
+- Deploy fácil no GitHub Pages
 - Código simples, direto e leve
 
 ## 🛠️ Tecnologias
 - HTML5
 - CSS3
+- Javascript
 
-## 🚀 Deploy
+## 🚀 Deploy compativel com 
 - Netlify → https://www.netlify.com/
 - Vercel → https://vercel.com/
 - GitHub Pages → https://pages.github.com/
@@ -25,6 +26,6 @@ Este projeto está licenciado sob a licença MIT – veja o arquivo [LICENSE](LI
 ---
 
 **🔗 Me siga:**  
-[www.iasemsegredo.com](https://www.iasemsegredo.com) • [@fabricioduarte](https://www.instagram.com/fabricioduarte)  
+[https://www.iasemsegredo.com](https://bioadsl.github.io/iasemsegredo/) • [@fabricioduarte4135](https://www.instagram.com/fabricioduarte4135)  
 
 **Quem não usa IA... fica pra trás.**
