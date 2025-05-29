@@ -32,3 +32,63 @@ body {
   padding: 8px;
   z-index: 9999;
 }
+
+    /* Slider e imagens colocados aqui por ser centralizado */  
+    /* Harmonização das imagens */  
+    .harmonious-img {  
+      width: 100%;  
+      max-width: 800px;  
+      height: auto;  
+    }
+	
+	
+
+/* Container das seções principais */
+.hero-content,
+.product-content,
+.author-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.hero-content .text,
+.product-content .text,
+.author-content .text {
+  flex: 1 1 400px;
+}
+
+.hero-content .image,
+.product-content .image,
+.author-content .image {
+  flex: 1 1 400px;
+}
+
+.hero-content .image img,
+.product-content .image img,
+.author-content .image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+}
+
+/* Para telas menores */
+@media (max-width: 768px) {
+  .hero-content,
+  .product-content,
+  .author-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content .text,
+  .product-content .text,
+  .author-content .text,
+  .hero-content .image,
+  .product-content .image,
+  .author-content .image {
+    flex: 1 1 100%;
+  }
+}
